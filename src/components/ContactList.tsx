@@ -27,7 +27,7 @@ export default function ContactList({
         ) : (
           <ul className="divide-y divide-gray-200">
             {contacts.map((contact) => (
-              <li key={contact.id} className="py-4 flex justify-between items-center">
+              <li key={contact.id} className="py-4 flex justify-between items-center grid grid-cols-3">
                 <div>
                   <p className="text-sm font-medium text-gray-900">{contact.name}</p>
                   <p className="text-sm text-gray-500">{contact.email}</p>
@@ -38,7 +38,7 @@ export default function ContactList({
                 </div>
                 <button
                   onClick={() => onDeleteContact(contact.id)}
-                  className="text-red-500 hover:text-red-700 bg-red-50 hover:bg-red-100 px-3 py-2 rounded-md text-sm transition-colors flex items-center justify-center cursor-pointer"
+                  className="text-red-500 hover:text-red-700 bg-red-50 hover:bg-red-100 px-3 py-2 rounded-md text-sm transition-colors flex items-center justify-center cursor-pointer width-fit ml-auto"
                   title="Eliminar usuario"
                   data-tooltip-target="tooltip-default"
                 >
