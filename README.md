@@ -74,6 +74,12 @@ src/
 └── main.tsx            # Punto de montaje de React
 ```
 
+## Ruta activa
+
+**Vercel**
+
+https://geest-test.vercel.app/
+
 Autor
 Alex Andrei Bastida Flores 🦇
 
