@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Alfred Pennyworth",
+    "email": "alfred.pennyworth@example.com",
+    "phone": "555-1234",
+    "department": "Ventas"
+  },
+  {
+    "id": "2",
+    "name": "Bruce Wayne",
+    "email": "bruce.wayne@example.com",
+    "phone": "555-2331",
+    "department": "Marketing"
+  },
+  {
+    "id": "3",
+    "name": "Jack Napier",
+    "email": "jack.napier@example.com",
+    "phone": "555-3456",
+    "department": "Soporte"
+  }
+]
